@@ -18,6 +18,7 @@
 		"node_modules/*",
 		"bower_components/*"
 	],
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
 	"file_exclude_patterns":
 	[
 		"*.pyc",
