@@ -1,0 +1,10 @@
+#compdef ~/config/dev_automation/dev.sh
+
+_dev() {
+	for i in ~/config/dev_automation/*.applescript ; do
+		FILE=$(basename "$i" .applescript)
+		compadd "$FILE"
+	done
+}
+
+_dev "$@"

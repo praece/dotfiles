@@ -1,0 +1,6 @@
+# Bunch of symlinks
+ln -sfv "$HOME/config/.zshrc" ~
+ln -sfv "$HOME/config/.npmrc" ~
+ln -sfv "$HOME/config/.gitignore_global" ~
+ln -sfv "$HOME/config/.gitconfig" ~
+ln -sfv "$HOME/config/Preferences.sublime-settings" $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User

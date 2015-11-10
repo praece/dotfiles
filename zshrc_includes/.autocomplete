@@ -1,0 +1,5 @@
+# Autocomplete for our dev env automation script
+fpath=(~/config/dev_automation $fpath)
+
+autoload -U compinit
+compinit

@@ -1,0 +1,3 @@
+defaults write -app Google\ Chrome NSUserKeyEquivalents -dict-add "Developer Tools"  "\Uf70f"
+defaults write com.apple.Finder NSUserKeyEquivalents -dict-add "Show Next Tab"       "@~\U2192"
+defaults write com.apple.Finder NSUserKeyEquivalents -dict-add "Show Previous Tab"   "@~\U2190"
