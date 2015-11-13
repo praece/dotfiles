@@ -3,7 +3,7 @@ tell application "iTerm"
 	
 	# Split pane
 	tell first session of current tab of current window
-		split vertically with default profile
+		split horizontally with default profile
 	end tell
 	
 	tell first session of current tab of current window
