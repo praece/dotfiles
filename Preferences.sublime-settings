@@ -18,7 +18,8 @@
 		"node_modules/*",
 		"bower_components/*"
 	],
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+	"color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
+	"theme": "Oceanic Next.sublime-theme",
 	"file_exclude_patterns":
 	[
 		"*.pyc",
