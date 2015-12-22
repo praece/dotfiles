@@ -56,5 +56,7 @@
 		"Vintage"
 	],
 	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"use_tab_stops": true,
 	"word_wrap": false
 }
