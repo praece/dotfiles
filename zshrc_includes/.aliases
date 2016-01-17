@@ -10,6 +10,9 @@ alias dokkup="ssh -t dokku@prod.dokku.praece.com"
 alias bower="noglob bower"
 alias npm="noglob npm"
 
+# Psql
+alias psql="'/Applications/Postgres.app/Contents/Versions/9.4/bin'/psql -p5432"
+
 # Our dev env setup automation script
 alias dev="~/config/dev_automation/dev.sh"
 

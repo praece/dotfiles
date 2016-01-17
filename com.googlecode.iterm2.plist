@@ -190,7 +190,7 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
-		<string>400</string>
+		<string>322</string>
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
@@ -219,11 +219,11 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>2560 28 1440 842 2560 0 2560 1417 </string>
+	<string>3411 554 1635 843 2560 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>2560 929 585 451 2560 0 2560 1417 </string>
+	<string>16 425 570 452 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>3455 378 1516 978 2560 0 2560 1417 </string>
+	<string>2562 391 1439 996 2560 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
 	<string>0 575 1440 842 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
@@ -1013,6 +1013,8 @@
 	<real>459967722.35196197</real>
 	<key>NoSyncSuppressAnnyoingBellOffer</key>
 	<true/>
+	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
+	<real>465939707.68456399</real>
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>453264657.54548103</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
@@ -1105,10 +1107,12 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-08-16T21:38:06Z</date>
+	<date>2015-11-22T22:35:14Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
+	<false/>
+	<key>ShowFullScreenTabBar</key>
 	<false/>
 	<key>ShowPaneTitles</key>
 	<true/>
@@ -1153,6 +1157,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.9.20150803-nightly</string>
+	<string>2.9.20151117-nightly</string>
 </dict>
 </plist>
