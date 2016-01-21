@@ -7,14 +7,13 @@ tell application "iTerm"
 	end tell
 	
 	tell first session of current tab of current window
-		write text "subl -n ~/mounts/aegir.local/platforms/rd_dev"
-		write text "ssh aegir@aegir.local"
-		write text "cd platforms/rd_dev"
+		write text "cd ~/code/portal/api"
+		write text "s"
+		write text "gst"
 	end tell
 	
 	tell second session of current tab of current window
-		write text "ssh aegir@aegir.local"
-		write text "cd platforms/rd_dev/sites/all/themes/riverdog"
-		write text "compass watch"
+		write text "cd ~/code/portal/api"
+		write text "nodemon"
 	end tell
 end tell
