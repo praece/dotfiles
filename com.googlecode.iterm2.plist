@@ -213,17 +213,17 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame Preferences</key>
-	<string>248 413 606 456 0 0 1440 877 </string>
+	<string>786 942 606 456 0 0 2560 1417 </string>
 	<key>NSWindow Frame SUAutomaticUpdateAlert</key>
 	<string>412 527 616 174 0 0 1440 877 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>3411 554 1635 843 2560 0 2560 1417 </string>
+	<string>501 471 1557 843 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>16 425 570 452 0 0 1440 877 </string>
+	<string>252 965 570 452 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>2562 391 1439 996 2560 0 2560 1417 </string>
+	<string>3059 177 1110 843 2560 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
 	<string>0 575 1440 842 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
@@ -1011,6 +1011,10 @@
 	<integer>0</integer>
 	<key>NoSyncLastTipTime</key>
 	<real>459967722.35196197</real>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncSuppressAnnyoingBellOffer</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -1036,7 +1040,7 @@
 		<string>0009</string>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
-	<true/>
+	<false/>
 	<key>OpenArrangementAtStartup</key>
 	<false/>
 	<key>OpenBookmark</key>
@@ -1086,6 +1090,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/kevin/config</string>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>PromptOnClose</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -1103,11 +1109,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/nightly.xml</string>
+	<string>https://iterm2.com/appcasts/testing3.xml</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-11-22T22:35:14Z</date>
+	<date>2016-01-21T16:33:00Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1157,6 +1163,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.9.20151117-nightly</string>
+	<string>2.9.20160113</string>
 </dict>
 </plist>
