@@ -244,7 +244,7 @@
 			<key>AWDS Tab Option</key>
 			<string>Recycle</string>
 			<key>AWDS Window Directory</key>
-			<string>/Users/kevin/code</string>
+			<string>~/code</string>
 			<key>AWDS Window Option</key>
 			<string>Yes</string>
 			<key>Allow Title Reporting</key>
@@ -1002,7 +1002,7 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/kevin/code</string>
+			<string>~/code</string>
 		</dict>
 	</array>
 	<key>NoSyncDoNotWarnBeforeMultilinePaste</key>
@@ -1089,7 +1089,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/kevin/config</string>
+	<string>~/config</string>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>PromptOnClose</key>

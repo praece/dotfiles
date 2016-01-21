@@ -24,5 +24,5 @@ source $HOME/config/zshrc_includes/.env # Environment variables
 source $HOME/config/zshrc_includes/.aliases # Aliases
 source $HOME/config/zshrc_includes/.autocomplete # Zsh autocompletes
 source $HOME/config/zshrc_includes/.functions # Functions
-export NVM_DIR="/Users/kevin/.nvm"
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
