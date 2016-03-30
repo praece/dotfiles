@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-.then(function(${1:result}) {
+.then(${1:result} => {
 	${0:// body...}
 })
 ]]></content>
