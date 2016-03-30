@@ -19,7 +19,6 @@
 		"bower_components/*"
 	],
 	"color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
-	"theme": "Oceanic Next.sublime-theme",
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -58,6 +57,7 @@
 		"Vintage"
 	],
 	"tab_size": 2,
+	"theme": "Oceanic Next.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"use_tab_stops": true,
 	"word_wrap": true
