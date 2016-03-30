@@ -386,15 +386,16 @@
 	<string>~/Documents</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{1058, 778}</string>
+<<<<<<< HEAD
 	<key>NSNavPanelExpandedSizeForSaveMode</key>
 	<string>{712, 532}</string>
+=======
+>>>>>>> bac6a8c768400c69294a6333d393302e3d779325
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
-	<false/>
-	<key>NSScrollViewShouldScrollUnderTitlebar</key>
 	<false/>
 	<key>NSTableView Columns KeyBingingTable</key>
 	<array>
@@ -407,7 +408,11 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
+<<<<<<< HEAD
 		<string>322</string>
+=======
+		<string>319</string>
+>>>>>>> bac6a8c768400c69294a6333d393302e3d779325
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
@@ -419,6 +424,7 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame Preferences</key>
+<<<<<<< HEAD
 	<string>78 719 606 456 0 0 1920 1177 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
 	<string>-54 85 384 129 0 0 2560 1417 </string>
@@ -430,6 +436,15 @@
 	<string>124 682 585 452 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>14 10 921 911 0 0 1920 1177 </string>
+=======
+	<string>128 786 924 485 0 0 2560 1417 </string>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>-54 85 384 129 0 0 2560 1417 </string>
+	<key>NSWindow Frame iTerm Window 0</key>
+	<string>5 75 886 704 0 0 2560 1417 </string>
+	<key>NSWindow Frame iTerm Window 1</key>
+	<string>721 132 585 451 0 0 2560 1417 </string>
+>>>>>>> bac6a8c768400c69294a6333d393302e3d779325
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1205,16 +1220,20 @@
 			<string>~/code</string>
 		</dict>
 	</array>
+<<<<<<< HEAD
 	<key>NoSyncLastTipTime</key>
 	<real>480616082.43076998</real>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>469143109.66766</real>
+=======
+>>>>>>> bac6a8c768400c69294a6333d393302e3d779325
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>456077586.17715901</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
 	<real>469124620.58904499</real>
+<<<<<<< HEAD
 	<key>NoSyncTipsToNotShow</key>
 	<array>
 		<string>000</string>
@@ -1285,6 +1304,8 @@
 		<string>0064</string>
 		<string>0065</string>
 	</array>
+=======
+>>>>>>> bac6a8c768400c69294a6333d393302e3d779325
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>OpenArrangementAtStartup</key>
@@ -1336,8 +1357,11 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>~/config/</string>
+<<<<<<< HEAD
 	<key>Print In Black And White</key>
 	<true/>
+=======
+>>>>>>> bac6a8c768400c69294a6333d393302e3d779325
 	<key>PromptOnClose</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -1352,14 +1376,20 @@
 	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
-	<key>SUFeedAlternateAppNameKey</key>
-	<string>iTerm</string>
 	<key>SUFeedURL</key>
+<<<<<<< HEAD
 	<string>https://iterm2.com/appcasts/testing3.xml</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
 	<date>2016-03-25T21:39:26Z</date>
+=======
+	<string>https://iterm2.com/appcasts/testing.xml</string>
+	<key>SUHasLaunchedBefore</key>
+	<true/>
+	<key>SULastCheckTime</key>
+	<date>2015-11-13T16:23:38Z</date>
+>>>>>>> bac6a8c768400c69294a6333d393302e3d779325
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1384,8 +1414,11 @@
 	<integer>10</integer>
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<false/>
+<<<<<<< HEAD
 	<key>UKCrashReporterLastCrashReportDate</key>
 	<real>1457376256</real>
+=======
+>>>>>>> bac6a8c768400c69294a6333d393302e3d779325
 	<key>URLHandlersByGuid</key>
 	<dict/>
 	<key>UseBorder</key>
@@ -1409,6 +1442,10 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
+<<<<<<< HEAD
 	<string>2.9.20160313</string>
+=======
+	<string>2.1.4</string>
+>>>>>>> bac6a8c768400c69294a6333d393302e3d779325
 </dict>
 </plist>
