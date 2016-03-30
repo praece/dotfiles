@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-.catch(function(${1:err}) {
+.catch(${1:err} => {
 	${0:// body...}
 });
 ]]></content>

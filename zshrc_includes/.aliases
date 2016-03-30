@@ -2,16 +2,9 @@
 alias path="pwd"
 alias g="git"
 
-# Dokku remote commands
-alias dokku="ssh -t dokku@test.dokku.praece.com"
-alias dokkup="ssh -t dokku@prod.dokku.praece.com"
-
 # Noglob
 alias bower="noglob bower"
 alias npm="noglob npm"
-
-# Psql
-alias psql="'/Applications/Postgres.app/Contents/Versions/9.4/bin'/psql -p5432"
 
 # Edit hosts file
 alias hosts="sudo subl /private/etc/hosts"

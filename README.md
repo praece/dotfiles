@@ -9,9 +9,13 @@
 	- iTerm
 4. Install homebrew and apps
 	- nginx - set to run on startup (instructions in http://derickbailey.com/2014/12/27/how-to-start-nginx-on-port-80-at-mac-osx-boot-up-log-in/)
-		- generate and trust two ssl certs in /usr/local/etc/nginx/ssl
-			- `sudo openssl req -x509 -nodes -days 1095 -newkey rsa:2048 -keyout mobile.key -out mobile.crt` servername `*.mobile.dev`
-			- `sudo openssl req -x509 -nodes -days 1095 -newkey rsa:2048 -keyout web.key -out web.cr` servername `*.web.dev`
+		- generate two ssl certs in /usr/local/etc/nginx/ssl
+			- `sudo openssl req -x509 -nodes -days 1095 -newkey rsa:2048 -keyout mobile.key -out mobile.crt`
+				- You can just skip all of the questions except for servername, which should be `*.mobile.dev`
+			- `sudo openssl req -x509 -nodes -days 1095 -newkey rsa:2048 -keyout web.key -out web.cr`
+				- Skip all questions except servername, which should be `*.web.dev`
+		- trust the two ssl certs you generated
+			- Navigate to /usr/local/etc/nginx/ssl in finder. Double click the .crt files, this will open Keychain Access (might take a second). Double click *.mobile.dev and *.web.dev, open Trust, and select "Always Trust" for "when using this certificate." You will need to enter your password when you close this window to confirm the change.
 	- dnsmasq - set to run on startup (instructions displayed upon install)
 5. Clone this project into a folder called "config" in your home directory
 6. Run install scripts using `sudo sh [script]`
@@ -34,3 +38,7 @@
 - Inkscape
 - Postico
 - Textual
+- Selenium 
+	- Download version 2.43.0 from http://selenium-release.storage.googleapis.com/index.html?path=2.43/
+	- Download latest version of chromedriver from http://chromedriver.storage.googleapis.com/index.html
+	- Unzip chromedriver, and place both files in /Applications/selenium
