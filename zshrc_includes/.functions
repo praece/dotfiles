@@ -31,3 +31,11 @@ function o() {
 		open "$@";
 	fi;
 }
+
+function code () {
+	if [ $# -eq 0 ]; then
+		VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args .;
+	else
+		VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $*; ;
+	fi;
+}
