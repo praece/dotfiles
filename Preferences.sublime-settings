@@ -18,6 +18,8 @@
 		"node_modules/*",
 		"bower_components/*"
 	],
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"detect_indentation": false,
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -56,5 +58,7 @@
 		"Vintage"
 	],
 	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"use_tab_stops": true,
 	"word_wrap": false
 }
