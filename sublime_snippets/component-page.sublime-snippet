@@ -1,0 +1,61 @@
+<snippet>
+  <content><![CDATA[
+// Modules
+import React from 'react';
+import { connect } from 'react-redux';
+
+// Actions
+
+// Components
+
+
+// Component
+class ${1:ClassName} extends React.Component {
+  static propTypes = {
+  };
+
+  constructor() {
+    super();
+  }
+
+  componentWillMount() {
+  }
+
+  render() {
+    return (
+      <Page>
+        <PageHeader>
+          <h1>${10:New Page}</h1>
+          <Actions>
+            ${11:Some actions}
+          </Actions>
+        </PageHeader>
+        <PageContent
+          fetching={${6:resource}.fetching}
+          emptyText={<Card>No ${4:list}</Card>}
+          showEmptyText={!${6:resource}.fetching && _.isEmpty(${4:list})}
+        >
+          <Pager count={count} />
+        </PageContent>
+      </Page>
+    );
+  }
+}
+
+
+// Internal methods
+function mapStateToProps(state) {
+  return {
+  };
+}
+
+
+// Exports
+export default connect(mapStateToProps)(${1:ClassName});
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>page-component</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>
