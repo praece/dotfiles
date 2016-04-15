@@ -16,7 +16,7 @@
 			- `sudo openssl req -x509 -nodes -days 1095 -newkey rsa:2048 -keyout web.key -out web.crt`
 				- Skip all questions except servername, which should be `*.web.dev`
 		- trust the two ssl certs you generated
-			- Navigate to /usr/local/etc/nginx/ssl in finder. Double click the .crt files, this will open Keychain Access (might take a second). Double click *.mobile.dev and *.web.dev, open Trust, and select "Always Trust" for "when using this certificate." You will need to enter your password when you close this window to confirm the change.
+			- Navigate to /usr/local/etc/nginx/ssl in finder. Double click the .crt files, this will open Keychain Access (might take a second). You might need to select a keychain to add the certificates to (select login). Double click *.mobile.dev and *.web.dev, open Trust, and select "Always Trust" for "when using this certificate." You will need to enter your password when you close this window to confirm the change.
 	- dnsmasq - set to run on startup (instructions displayed upon install)
 5. Clone this project into a folder called "config" in your home directory
 6. Run install scripts using `sudo sh [script]`
