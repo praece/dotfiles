@@ -8,11 +8,12 @@
 	- Sublime
 	- iTerm
 4. Install homebrew and apps
+	- Use homebrew to install nginx, node, and npm
 	- nginx - set to run on startup (instructions in http://derickbailey.com/2014/12/27/how-to-start-nginx-on-port-80-at-mac-osx-boot-up-log-in/)
 		- generate two ssl certs in /usr/local/etc/nginx/ssl
 			- `sudo openssl req -x509 -nodes -days 1095 -newkey rsa:2048 -keyout mobile.key -out mobile.crt`
 				- You can just skip all of the questions except for servername, which should be `*.mobile.dev`
-			- `sudo openssl req -x509 -nodes -days 1095 -newkey rsa:2048 -keyout web.key -out web.cr`
+			- `sudo openssl req -x509 -nodes -days 1095 -newkey rsa:2048 -keyout web.key -out web.crt`
 				- Skip all questions except servername, which should be `*.web.dev`
 		- trust the two ssl certs you generated
 			- Navigate to /usr/local/etc/nginx/ssl in finder. Double click the .crt files, this will open Keychain Access (might take a second). Double click *.mobile.dev and *.web.dev, open Trust, and select "Always Trust" for "when using this certificate." You will need to enter your password when you close this window to confirm the change.
