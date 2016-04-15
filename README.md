@@ -28,6 +28,24 @@
 8. Dev env installs
 	- Node
 	- NPM
+9. npm install -g (as applicable, you may not need all of these. Organized by general types of apps that require each)
+	- Sails
+		- knex
+		- node-debug
+		- node-inspector
+		- nodemon
+		- sails
+	- Angular
+		- yo
+		- gulp
+		- bower
+	- Ionic
+		- cordova
+		- ionic
+	- Other
+		- mocha
+		- n
+		- webpack
 
 
 ## Other Apps
