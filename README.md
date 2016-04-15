@@ -5,7 +5,7 @@
 2. Install oh-my-zsh
 3. Install all apps
 	- Postgres
-	- Sublime
+	- Sublime (and Package Control for Sublime)
 	- iTerm
 4. Install homebrew and apps
 	- Use homebrew to install nginx, node, and npm
