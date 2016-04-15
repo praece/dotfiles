@@ -10,7 +10,7 @@
 4. Install homebrew and apps
 	- Use homebrew to install nginx, node, and npm
 	- nginx - set to run on startup (instructions in http://derickbailey.com/2014/12/27/how-to-start-nginx-on-port-80-at-mac-osx-boot-up-log-in/)
-		- generate two ssl certs in /usr/local/etc/nginx/ssl
+		- generate two ssl certs in /usr/local/etc/nginx/ssl/dev
 			- `sudo openssl req -x509 -nodes -days 1095 -newkey rsa:2048 -keyout mobile.key -out mobile.crt`
 				- You can just skip all of the questions except for servername, which should be `*.mobile.dev`
 			- `sudo openssl req -x509 -nodes -days 1095 -newkey rsa:2048 -keyout web.key -out web.crt`
@@ -18,6 +18,8 @@
 		- trust the two ssl certs you generated
 			- Navigate to /usr/local/etc/nginx/ssl in finder. Double click the .crt files, this will open Keychain Access (might take a second). You might need to select a keychain to add the certificates to (select login). Double click *.mobile.dev and *.web.dev, open Trust, and select "Always Trust" for "when using this certificate." You will need to enter your password when you close this window to confirm the change.
 		- Add a file named "dev" which contains your nginx config for .mobile.dev and .web.dev to sites-available and create a symlink (ln -s /path/to/current /path/to/link) to dev in sites-enabled
+		- Add "include sites-enabled/*;" in the http section of nginx.conf.
+		- sudo nginx -s reload
 	- dnsmasq - set to run on startup (instructions displayed upon install)
 5. Clone this project into a folder called "config" in your home directory
 6. Run install scripts using `sudo sh [script]` (You will need to navigate into the install_scripts directory to do this)
