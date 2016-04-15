@@ -40,6 +40,7 @@
 - Inkscape
 - Postico
 - Textual
+- Postman
 - Selenium 
 	- Download version 2.43.0 from http://selenium-release.storage.googleapis.com/index.html?path=2.43/
 	- Download latest version of chromedriver from http://chromedriver.storage.googleapis.com/index.html
