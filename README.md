@@ -19,7 +19,7 @@
 			- Navigate to /usr/local/etc/nginx/ssl in finder. Double click the .crt files, this will open Keychain Access (might take a second). You might need to select a keychain to add the certificates to (select login). Double click *.mobile.dev and *.web.dev, open Trust, and select "Always Trust" for "when using this certificate." You will need to enter your password when you close this window to confirm the change.
 	- dnsmasq - set to run on startup (instructions displayed upon install)
 5. Clone this project into a folder called "config" in your home directory
-6. Run install scripts using `sudo sh [script]`
+6. Run install scripts using `sudo sh [script]` (You will need to navigate into the install_scripts directory to do this)
 	- install - create symlinks
 	- keyboard_shortcuts - will need to be re-run if you change the keyboard shortcuts in the settings
 	- osx - a set of sane defaults for osx
