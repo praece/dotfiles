@@ -17,6 +17,7 @@
 				- Skip all questions except servername, which should be `*.web.dev`
 		- trust the two ssl certs you generated
 			- Navigate to /usr/local/etc/nginx/ssl in finder. Double click the .crt files, this will open Keychain Access (might take a second). You might need to select a keychain to add the certificates to (select login). Double click *.mobile.dev and *.web.dev, open Trust, and select "Always Trust" for "when using this certificate." You will need to enter your password when you close this window to confirm the change.
+		- Add a file named "dev" which contains your nginx config for .mobile.dev and .web.dev to sites-available and create a symlink (ln -s /path/to/current /path/to/link) to dev in sites-enabled
 	- dnsmasq - set to run on startup (instructions displayed upon install)
 5. Clone this project into a folder called "config" in your home directory
 6. Run install scripts using `sudo sh [script]` (You will need to navigate into the install_scripts directory to do this)
