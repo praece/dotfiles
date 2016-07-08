@@ -44,6 +44,7 @@ server {
   server_name *.dev;
   ssl_certificate /usr/local/etc/nginx/ssl/dev/web.crt;
   ssl_certificate_key /usr/local/etc/nginx/ssl/dev/web.key;
+  client_max_body_size 50M;
 
   location    / {
     proxy_pass  http://web;
