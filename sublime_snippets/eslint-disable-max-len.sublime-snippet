@@ -1,11 +1,9 @@
 <snippet>
   <content><![CDATA[
-.tap(${1:result} => {
-  console.log(`----------${2:tapped}--------\n`, ${3:result});
-})
+// eslint-disable-line max-len
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>lt</tabTrigger>
+  <tabTrigger>esline</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.js</scope>
 </snippet>
