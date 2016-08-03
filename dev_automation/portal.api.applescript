@@ -14,6 +14,5 @@ tell application "iTerm"
 	
 	tell second session of current tab of current window
 		write text "cd ~/code/portal/api"
-		write text "nodemon"
 	end tell
 end tell
