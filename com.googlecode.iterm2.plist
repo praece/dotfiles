@@ -213,17 +213,17 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame Preferences</key>
-	<string>786 942 606 456 0 0 2560 1417 </string>
+	<string>3346 942 606 456 2560 0 2560 1417 </string>
 	<key>NSWindow Frame SUAutomaticUpdateAlert</key>
 	<string>412 527 616 174 0 0 1440 877 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>501 471 1557 843 0 0 2560 1417 </string>
+	<string>0 425 570 452 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>252 965 570 452 0 0 2560 1417 </string>
+	<string>367 132 3643 1285 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>3059 177 1110 843 2560 0 2560 1417 </string>
+	<string>500 425 570 452 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
 	<string>0 575 1440 842 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
@@ -1009,6 +1009,8 @@
 	<true/>
 	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
 	<integer>0</integer>
+  <key>NoSyncInstallationId</key>
+  <string>17D302E9-C1B1-40A1-BEC7-95673E6318A1</string>
 	<key>NoSyncLastTipTime</key>
 	<real>459967722.35196197</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
@@ -1089,7 +1091,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>~/config</string>
+	<string>/Users/kevin/config</string>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>PromptOnClose</key>
@@ -1109,17 +1111,17 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing3.xml</string>
+	<string>https://iterm2.com/appcasts/testing3.xml?shard=35</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-01-21T16:33:00Z</date>
+	<date>2016-06-03T16:47:51Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>SmartPlacement</key>
@@ -1163,6 +1165,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.9.20160113</string>
+	<string>2.9.20160426</string>
 </dict>
 </plist>
