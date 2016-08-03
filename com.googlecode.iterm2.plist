@@ -383,14 +383,16 @@
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Documents</string>
+	<string>~/config</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{1058, 778}</string>
+	<string>{712, 459}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
+	<false/>
+	<key>NSScrollViewShouldScrollUnderTitlebar</key>
 	<false/>
 	<key>NSTableView Columns KeyBingingTable</key>
 	<array>
@@ -403,7 +405,7 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
-		<string>319</string>
+		<string>322</string>
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
@@ -415,13 +417,15 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame Preferences</key>
-	<string>128 786 924 485 0 0 2560 1417 </string>
-	<key>NSWindow Frame SUStatusFrame</key>
-	<string>-54 85 384 129 0 0 2560 1417 </string>
+	<string>564 1198 606 456 0 0 3008 1669 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>650 589 620 392 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>5 75 886 704 0 0 2560 1417 </string>
+	<string>1296 144 1376 1136 0 0 3008 1669 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>721 132 585 451 0 0 2560 1417 </string>
+	<string>3475 836 585 452 3008 -52 1200 1897 </string>
+	<key>NSWindow Frame iTerm Window 2</key>
+	<string>265 853 585 452 0 0 3008 1669 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1197,11 +1201,20 @@
 			<string>~/code</string>
 		</dict>
 	</array>
+	<key>NoSyncInstallationId</key>
+	<string>F15CC734-46FE-4F75-B375-18E0D3C13E7A</string>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
+	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
+	<real>482433299.76081198</real>
 	<key>NoSyncTimeOfLastPromo</key>
-	<real>456077586.17715901</real>
+	<real>482427333.83487201</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>469124620.58904499</real>
-
+	<real>482427333.83510798</real>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>OpenArrangementAtStartup</key>
@@ -1252,7 +1265,9 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>~/config/</string>
+	<string>/Users/Chelsea/config</string>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>PromptOnClose</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -1267,12 +1282,14 @@
 	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
+	<key>SUFeedAlternateAppNameKey</key>
+	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing.xml</string>
+	<string>https://iterm2.com/appcasts/testing3.xml?shard=68</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-11-13T16:23:38Z</date>
+	<date>2016-07-30T03:15:19Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1320,6 +1337,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.1.4</string>
+	<string>2.9.20160510</string>
 </dict>
 </plist>
