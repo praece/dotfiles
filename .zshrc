@@ -26,3 +26,7 @@ source $HOME/config/zshrc_includes/.autocomplete # Zsh autocompletes
 source $HOME/config/zshrc_includes/.functions # Functions
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$ANDROID_HOME/tools:$PATH
+export PATH=$ANDROID_HOME/platform-tools:$PATH
