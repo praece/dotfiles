@@ -17,6 +17,9 @@ alias dev="~/config/dev_automation/dev.sh"
 alias fll="flynn -a live"
 alias fls="flynn -a staging"
 
+# Dokku
+alias dokku='DOKKU_HOST=app.praece.com bash $HOME/.dokku/contrib/dokku_client.sh'
+
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
