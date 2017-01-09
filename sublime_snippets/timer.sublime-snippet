@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-console.log(moment().format('HH:mm:ss.SSS'));
+console.log(`${0:label} ----- `, moment().format('HH:mm:ss.SSS'));
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>timer</tabTrigger>
