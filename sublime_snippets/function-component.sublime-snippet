@@ -2,6 +2,7 @@
   <content><![CDATA[
 import React from 'react';
 
+
 export default function ${1:ComponentName}({ ${2:...props} }) {
   return (
     ${3:component}
