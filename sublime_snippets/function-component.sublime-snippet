@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+
+
+export default function ${1:ComponentName}({ ${2:...props} }) {
+  return (
+    ${3:component}
+  );
+}
+
+${1:ComponentName}.propTypes = {
+  ${4:prop: React.PropTypes.type}
+};
+
+]]></content>
+  <tabTrigger>fc</tabTrigger>
+</snippet>
