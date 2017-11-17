@@ -55,7 +55,6 @@
 	"font_size": 12,
 	"ignored_packages":
 	[
-		"Package Control",
 		"Vintage"
 	],
 	"tab_size": 2,

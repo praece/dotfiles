@@ -3,7 +3,7 @@ NPM_PACKAGES="${HOME}/.npm-packages"
 NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
 
 # Python virtualenv
-VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 source /Library/Frameworks/Python.framework/Versions/3.6/bin/virtualenvwrapper.sh
 
 # Set up path

@@ -17,6 +17,10 @@ alias dev="~/config/dev_automation/dev.sh"
 alias fll="flynn -a live"
 alias fls="flynn -a staging"
 
+# Python
+alias python="python3"
+alias pip="pip3"
+
 # Dokku
 alias dokku='DOKKU_HOST=app.praece.com bash $HOME/.dokku/contrib/dokku_client.sh'
 
