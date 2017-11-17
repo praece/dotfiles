@@ -19,10 +19,38 @@
 			- prefix=/Users/[your username]/.npm-packages
 	- nginx - set to run on startup (instructions in http://derickbailey.com/2014/12/27/how-to-start-nginx-on-port-80-at-mac-osx-boot-up-log-in/)
 		- generate two ssl certs in /usr/local/etc/nginx/ssl/dev
-			- `sudo openssl req -x509 -nodes -days 1095 -newkey rsa:2048 -keyout mobile.key -out mobile.crt`
-				- You can just skip all of the questions except for servername, which should be `*.mobile.dev`
-			- `sudo openssl req -x509 -nodes -days 1095 -newkey rsa:2048 -keyout web.key -out web.crt`
-				- Skip all questions except servername, which should be `*.web.dev`
+		  ```
+			openssl req \
+			    -newkey rsa:2048 \
+			    -x509 \
+			    -nodes \
+			    -keyout mobile.key \
+			    -new \
+			    -out mobile.crt \
+			    -subj /CN="*.mobile.dev" \
+			    -reqexts SAN \
+			    -extensions SAN \
+			    -config <(cat /System/Library/OpenSSL/openssl.cnf \
+				<(printf '[SAN]\nsubjectAltName=DNS:*.mobile.dev')) \
+			    -sha256 \
+			    -days 3650
+		  ```
+		  ```
+			openssl req \
+			    -newkey rsa:2048 \
+			    -x509 \
+			    -nodes \
+			    -keyout web.key \
+			    -new \
+			    -out web.crt \
+			    -subj /CN="*.web.dev" \
+			    -reqexts SAN \
+			    -extensions SAN \
+			    -config <(cat /System/Library/OpenSSL/openssl.cnf \
+				<(printf '[SAN]\nsubjectAltName=DNS:*.web.dev')) \
+			    -sha256 \
+			    -days 3650
+		  ```
 		- trust the two ssl certs you generated
 			- Navigate to /usr/local/etc/nginx/ssl in finder. Double click the .crt files, this will open Keychain Access (might take a second). You might need to select a keychain to add the certificates to (select login). Double click *.mobile.dev and *.web.dev, open Trust, and select "Always Trust" for "when using this certificate." You will need to enter your password when you close this window to confirm the change.
 		- Add "include sites-enabled/*;" in the http section of nginx.conf.
