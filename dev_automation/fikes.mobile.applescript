@@ -13,6 +13,6 @@ tell application "iTerm"
 	
 	tell second session of current tab of current window
 		write text "cd ~/code/fikes/mobile-ui"
-		write text "ionic serve"
+		write text "ionic serve -p 8100 --no-open"
 	end tell
 end tell

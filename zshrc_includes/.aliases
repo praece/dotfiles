@@ -20,6 +20,8 @@ alias fls="flynn -a staging"
 # Python
 alias python="python3"
 alias pip="pip3"
+alias piper="pipenv run python"
+alias piplint="pipenv run find . -name '*.py' -exec pylint '{}' +"
 
 # Dokku
 alias dokku='DOKKU_HOST=app.praece.com bash $HOME/.dokku/contrib/dokku_client.sh'
