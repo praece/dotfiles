@@ -70,6 +70,10 @@
 
 ## Other Apps
 - Hummingbird window movement manager
+- Spectable window manager
+- Android Studio
+- xcode
+- Parallels if needed
 - GIMP
 - Chrome
 - Postico
