@@ -7,6 +7,7 @@ mkdir -p /etc/resolver
 ln -sfv "$HOME/config/nginx/dev.resolver" /etc/resolver/dev
 ln -sfv "$HOME/config/nginx/aegir.resolver" /etc/resolver/aegir
 ln -sfv "$HOME/config/nginx/square.resolver" /etc/resolver/square
-ln -sfv "$HOME/config/nginx/dev.nginx" /usr/local/etc/nginx/sites-enabled/dev
-ln -sfv "$HOME/config/nginx/square.nginx" /usr/local/etc/nginx/sites-enabled/square
+ln -sfv "$HOME/config/nginx/praece.resolver" /etc/resolver/corp.praece.com
+ln -sfv "$HOME/config/nginx/dev.nginx" /usr/local/etc/nginx/servers/dev
+ln -sfv "$HOME/config/nginx/square.nginx" /usr/local/etc/nginx/servers/square
 ln -sfv "$HOME/config/nginx/dev.dnsmasq" /usr/local/etc/dnsmasq.conf

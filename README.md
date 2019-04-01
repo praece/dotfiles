@@ -53,8 +53,6 @@
 		  ```
 		- trust the two ssl certs you generated
 			- Navigate to /usr/local/etc/nginx/ssl in finder. Double click the .crt files, this will open Keychain Access (might take a second). You might need to select a keychain to add the certificates to (select login). Double click *.mobile.dev and *.web.dev, open Trust, and select "Always Trust" for "when using this certificate." You will need to enter your password when you close this window to confirm the change.
-		- Add "include sites-enabled/*;" in the http section of nginx.conf.
-		- You might need to create sites-available and sites-enabled folders inside /usr/local/etc/nginx if they don't already exist
 		- sudo nginx -s reload
 	- brew install dnsmasq - set to run on startup (instructions displayed upon install)
 5. Clone this project into a folder called "config" in your home directory

@@ -25,6 +25,7 @@ alias piplint="pipenv run find . -name '*.py' -exec pylint '{}' +"
 
 # Dokku
 alias dokku='DOKKU_HOST=app.praece.com bash $HOME/.dokku/contrib/dokku_client.sh'
+alias gusdokku='DOKKU_HOST=dev.gogus.com bash $HOME/.dokku/contrib/dokku_client.sh'
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`

@@ -1,4 +1,4 @@
-address=/dev/127.0.0.1
+address=/dev/10.37.129.2
 address=/aegir/10.254.254.2
-address=/square/127.0.0.1
+address=/square/10.37.129.2
 listen-address=127.0.0.1
