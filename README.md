@@ -9,9 +9,6 @@
 3. Install all apps
 	- Postgres
 	- Sublime (and Package Control for Sublime)
-		- Babel
-		- Babel snippets
-		- Sass
 	- iTerm
 4. Install homebrew and apps
 	- Use homebrew to install nginx, node, and npm
@@ -66,40 +63,16 @@
 	- Node
 	- NPM
 9. npm install -g (as applicable, you may not need all of these. Organized by general types of apps that require each)
-	- Sails
-		- knex
-		- node-debug
-		- node-inspector
-		- nodemon
-		- sails
-	- Angular
-		- yo
-		- gulp
-		- bower
-	- Ionic
-		- cordova
-		- ionic
-	- Other
-		- mocha
-		- n
-		- webpack
+10. install latest python, pip and pipenv
 
 
 ## Other Apps
-- Flux
-- ShiftIt
-- HyperDock
+- Hummingbird window movement manager
+- Spectable window manager
+- Android Studio
+- xcode
+- Parallels if needed
 - GIMP
 - Chrome
-- Drive
-- Inkscape
 - Postico
-- Textual
 - Postman
-- Selenium 
-	- Download version 2.53.0 from http://selenium-release.storage.googleapis.com/index.html?path=2.53/
-	- Download latest version of chromedriver from http://chromedriver.storage.googleapis.com/index.html
-	- Unzip chromedriver, and place both files in /Applications/selenium
-		- Should end up looking like:
-			- /Applications/selenium/selenium-server-standalone-2.43.0.jar
-			- /Applications/selenium/chromedriver
