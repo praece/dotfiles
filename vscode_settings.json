@@ -3,5 +3,7 @@
     "python.terminal.activateEnvironment": false,
     "python.formatting.provider": "black",
     "python.linting.mypyEnabled": true,
-    "python.linting.pylintEnabled": false
+    "python.linting.pylintEnabled": false,
+    "python.formatting.blackPath": "/usr/local/bin/black",
+    "python.linting.mypyPath": "/usr/local/bin/mypy"
 }
