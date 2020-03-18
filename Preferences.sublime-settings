@@ -1,4 +1,11 @@
 {
+	"auto_complete_triggers":
+	[
+		{
+			"characters": ".",
+			"selector": "source.python"
+		}
+	],
 	"binary_file_patterns":
 	[
 		"*.scssc",
@@ -16,7 +23,8 @@
 		"*.jar",
 		"*.zip",
 		"node_modules/*",
-		"bower_components/*"
+		"bower_components/*",
+		".venv/*"
 	],
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"file_exclude_patterns":

@@ -6,5 +6,5 @@ if [ -z "$COMMAND" ]; then
 		echo "$FILE"
 	done
 else
-	osascript "${HOME}/config/dev_automation/$COMMAND.applescript"
+	osascript "${HOME}/config/dev_automation/$COMMAND.applescript" "$@"
 fi

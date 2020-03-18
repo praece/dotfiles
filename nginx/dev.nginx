@@ -1,6 +1,6 @@
 upstream web    { server 127.0.0.1:3000; }
 upstream api    { server 127.0.0.1:1337; }
-upstream mobile { server 127.0.0.1:8100; }
+upstream mobile { server 127.0.0.1:8101; }
 
 server {
   listen      [::]:80;
