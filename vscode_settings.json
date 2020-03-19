@@ -4,6 +4,5 @@
     "python.formatting.provider": "black",
     "python.linting.mypyEnabled": true,
     "python.linting.pylintEnabled": false,
-    "python.formatting.blackPath": "/usr/local/bin/black",
-    "python.linting.mypyPath": "/usr/local/bin/mypy"
+    "editor.formatOnType": true
 }
