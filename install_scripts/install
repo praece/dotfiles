@@ -5,8 +5,7 @@ ln -sfv "$HOME/config/Preferences.sublime-settings" $HOME/Library/Application\ S
 ln -sfv "$HOME/config/vscode_settings.json" $HOME/Library/Application\ Support/Code/User/settings.json
 ln -sfv "$HOME/config/sublime_snippets" $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 mkdir -p /etc/resolver
-ln -sfv "$HOME/config/nginx/dev.resolver" /etc/resolver/mobile.dev
-ln -sfv "$HOME/config/nginx/dev.resolver" /etc/resolver/web.dev
+ln -sfv "$HOME/config/nginx/dev.resolver" /etc/resolver/dev 
 ln -sfv "$HOME/config/nginx/aegir.resolver" /etc/resolver/aegir
 ln -sfv "$HOME/config/nginx/square.resolver" /etc/resolver/square
 ln -sfv "$HOME/config/nginx/praece.resolver" /etc/resolver/corp.praece.com
