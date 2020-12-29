@@ -1,8 +1,32 @@
 {
-    "editor.formatOnSave": true,
     "python.terminal.activateEnvironment": false,
     "python.formatting.provider": "black",
     "python.linting.mypyEnabled": true,
     "python.linting.pylintEnabled": false,
-    "editor.formatOnType": true
+    "python.formatting.blackArgs": [
+        "--line-length=120"
+    ],
+    "python.jediEnabled": false,
+    "python.linting.mypyArgs": [
+        "--follow-imports=silent",
+        "--show-column-numbers"
+    ],
+    "explorer.autoReveal": false,
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "search.useIgnoreFiles": false,
+    "python.languageServer": "Microsoft",
+    "search.exclude": {
+        "**/.mypy_cache": true,
+        "**/.next": true,
+        "**/.tmp": true,
+        "**/.venv": true
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "html.format.enable": false,
+    "html.format.wrapLineLength": 0,
+    "html.format.indentHandlebars": true,
+    "html.autoClosingTags": false,
+    "workbench.iconTheme": "al"
 }

@@ -8,7 +8,7 @@ tell application "iTerm"
   
   tell first session of current tab of current window
     write text "cd ~/code/city_of_auburn_project_management"
-    write text "subl ."
+    write text "code ."
   end tell
   
   tell second session of current tab of current window

@@ -8,7 +8,7 @@ tell application "iTerm"
   
   tell first session of current tab of current window
     write text "cd ~/code/portal/web-ui"
-    write text "s"
+    write text "code"
     write text "gst"
   end tell
   

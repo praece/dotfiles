@@ -24,6 +24,10 @@ alias piper="pipenv run python"
 alias piprun="pipenv run python manage.py runserver 3000"
 alias piplint="pipenv run find . -name '*.py' -exec pylint '{}' +"
 
+# Poetry
+alias pyrun="poetry run python"
+alias pyserve="poetry run python manage.py runserver 3000"
+
 # Dokku
 alias dokku='DOKKU_HOST=app.praece.com bash $HOME/.dokku/contrib/dokku_client.sh'
 alias gusdokku='DOKKU_HOST=dev.gogus.com bash $HOME/.dokku/contrib/dokku_client.sh'

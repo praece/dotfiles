@@ -7,7 +7,7 @@ tell application "iTerm"
 	end tell
 	
 	tell first session of current tab of current window
-		write text "subl -n ~/mounts/aegir.local/platforms/rd_dev"
+		write text "code -n ~/mounts/aegir.local/platforms/rd_dev"
 		write text "ssh aegir@aegir.local"
 		write text "cd platforms/rd_dev"
 	end tell
